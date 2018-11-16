@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="83ea31cf-c130-465e-8686-ea9f77aace59" name="UMLUseCaseDiagram1" linkedPackageId="0d6e41ec-97d7-48ba-93b5-3137f1d3cca3" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="0aee9aa3-01a1-4727-b053-b77af8a9166e" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="94c00d53-97eb-4775-9e17-eaa0dd0742c9" />
+        <targetEnds>
+          <association Id="4c771f4e-4620-4b52-bc63-6bd6092e8e38" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Search Dogs" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="373a39e4-3b4e-4c19-8f54-03b1fdd29a65" LastKnownName="Search Dogs" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d36d54c3-ca6f-425a-af85-e4789d1bcd27" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="82202c03-b81c-4a6d-b01d-8e14fe4c7023" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aa98da80-9554-4471-aa72-cc6dffd27589" name="Search Dogs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8c20af21-768b-4e12-958c-5704a9e13c50" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0c1895b9-b5ff-4d16-8ea0-613dd9a274ee" />
+          </association>
+          <association Id="d4422058-33a1-4bdb-b5dc-10a0031ec11c" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Manage Order" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="09cf4d09-e09c-4177-9073-51b89f69434b" LastKnownName="Manage Order" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1806cafa-83c2-434b-8511-ffb56477e6f0" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c776a180-1d9f-4ad4-a689-2d076cbf3a23" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3a4c31d8-7962-42d5-9e31-ae8dd3f59cd1" name="Manage Order" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b0afd488-9442-40b2-bf09-728ed0312bc4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c805ab87-d3af-4c71-9f09-09acf46dd637" />
+          </association>
+          <association Id="8ca75593-df06-48d2-b092-a910cdd658d4" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Login" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8509f420-28a1-4d1d-a159-6a5cf967c125" LastKnownName="Login" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="50685b05-efbf-4492-9c3d-524a61bb3980" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="90048474-be0a-4a17-97d0-ca12a4103410" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2bb0c04c-ed0e-4f4c-8402-8cba603ffc60" name="Login" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9b42699e-9dc8-4b63-84c7-c8590a9a288e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cada91ba-c8a4-49fa-acf4-e9a1e776476a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="373a39e4-3b4e-4c19-8f54-03b1fdd29a65" name="Search Dogs" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="06ad8c80-5e42-4328-853c-e8c00e43c1d0" />
+        <extendedCases>
+          <extend Id="5e6c1355-32ef-4295-a783-5198d09de247">
+            <useCaseMoniker Id="8be5b546-0b63-42c7-8f6c-900707dae3bb" LastKnownName="Add to Cart" />
+            <elementDefinition Id="80d204b2-53be-40a0-98a1-c1b1a17abbe2" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" LastKnownName="Dog Rental System" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1bd62534-9fc9-4d53-9f5d-f48618ec823c" name="Checkout" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8307d00a-50b0-44e0-981c-c955d6deab3f" />
+        <targetEnds>
+          <association Id="b142e48a-001d-44a6-8538-7d8aa98d4302" isDerived="false" sourceEndRoleName="Checkout" targetEndRoleName="Dog Owner" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="7bcfc836-e076-4289-80f5-ff6ad0d33382" LastKnownName="Dog Owner" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="17142eba-3b32-4e1b-b1cb-5b02012e42cb" name="Checkout" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1933f6ef-4ef5-4103-8d79-afb0ab39b92b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0f303029-29f5-47e2-8425-b4b18b03be0b" name="Dog Owner" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="87ad1860-8874-4bf9-ad23-32778cf7d109" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="715a9e74-77b6-41d9-8c3a-6300bf39dcd4" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" LastKnownName="Dog Rental System" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="09cf4d09-e09c-4177-9073-51b89f69434b" name="Manage Order" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b34f44c2-72ef-4318-9754-7a4a5368602d" />
+        <extendedCases>
+          <extend Id="4f15a885-212b-4d6a-aac9-03746ab8d16e">
+            <useCaseMoniker Id="1bd62534-9fc9-4d53-9f5d-f48618ec823c" LastKnownName="Checkout" />
+            <elementDefinition Id="1ca40e5c-2d03-4342-b957-540367f5f852" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" LastKnownName="Dog Rental System" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" name="Dog Rental System" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="8be5b546-0b63-42c7-8f6c-900707dae3bb" name="Add to Cart" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="78ab90d9-caf0-47a4-9faa-43db4e5e4f17" />
+        <extendedCases>
+          <extend Id="ee88083d-5574-411c-98a9-67e04949d1f3">
+            <useCaseMoniker Id="09cf4d09-e09c-4177-9073-51b89f69434b" LastKnownName="Manage Order" />
+            <elementDefinition Id="68308d10-e67f-4c2f-9dac-a3ef68386693" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" LastKnownName="Dog Rental System" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="8509f420-28a1-4d1d-a159-6a5cf967c125" name="Login" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="df3d282b-8527-4e1f-85ad-ff7dd3fe75db" />
+        <extendedCases>
+          <extend Id="dd801007-5803-4a44-9411-d3f0abd96030">
+            <useCaseMoniker Id="a58289c4-f6ce-4263-9836-7c6ab08a57b7" LastKnownName="Register" />
+            <elementDefinition Id="5046728f-58d9-4f7c-8b61-88171fc941dd" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" LastKnownName="Dog Rental System" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="7bcfc836-e076-4289-80f5-ff6ad0d33382" name="Dog Owner" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b209015a-819e-41ed-a1b8-5197c1a8d4f4" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="a58289c4-f6ce-4263-9836-7c6ab08a57b7" name="Register" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e09df58-378d-4aa5-bb5f-f42c60a05bda" />
+        <subjects>
+          <subsystemMoniker Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" LastKnownName="Dog Rental System" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ba4858ab-d4fd-4aad-b7c1-951b36736909" name="By Credit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="827a543a-94eb-433a-9798-604296bd110b" />
+        <additions>
+          <include Id="f4ee5015-19c4-4a89-93a4-241618e23e49">
+            <useCaseMoniker Id="09cf4d09-e09c-4177-9073-51b89f69434b" LastKnownName="Manage Order" />
+            <elementDefinition Id="c5774267-58a0-42fb-a0e4-266131b5eec6" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" LastKnownName="Dog Rental System" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2f02b7a2-aafe-46a6-80e4-2d6290c3aa55" name="By Debit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4447accd-5723-4e6e-8e30-8b8eff9bb7d5" />
+        <additions>
+          <include Id="d665aab5-7cbe-43a6-a92c-77f2e15033de">
+            <useCaseMoniker Id="09cf4d09-e09c-4177-9073-51b89f69434b" LastKnownName="Manage Order" />
+            <elementDefinition Id="351033e1-4c50-4594-b876-56bc46f45c1a" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" LastKnownName="Dog Rental System" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1251d7c1-fe43-438d-831a-4411bd23dcdd" name="By Cash" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7987ddf6-f470-4782-9577-e24b0bf7bdd6" />
+        <additions>
+          <include Id="6be68620-20aa-4b33-ab81-2543d574de30">
+            <useCaseMoniker Id="09cf4d09-e09c-4177-9073-51b89f69434b" LastKnownName="Manage Order" />
+            <elementDefinition Id="f3a7ca16-85a8-404f-99d1-27eedb65c5c6" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="2cf39850-e1e5-4b8b-94ac-26eb7b90ab8a" LastKnownName="Dog Rental System" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="0d6e41ec-97d7-48ba-93b5-3137f1d3cca3" name="ModelingProject1">
+    <elementDefinition Id="8b6788a2-687f-4c70-b24a-2f8af26e97ea" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a2d0102f-fb30-4c4b-9b65-3ef323c412af">
+        <profileInstance Id="2a7cfafe-c337-44b2-8e8a-0ee3c6bce8c2" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5881269a-5e75-4f0f-a808-dd93e3a7a29d">
+        <profileInstance Id="878f3032-469d-43d5-9829-4e213497c1cd" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

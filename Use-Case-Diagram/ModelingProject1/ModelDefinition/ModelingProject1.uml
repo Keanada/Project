@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="8b6788a2-687f-4c70-b24a-2f8af26e97ea"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="94c00d53-97eb-4775-9e17-eaa0dd0742c9"
+        name="User"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="0c1895b9-b5ff-4d16-8ea0-613dd9a274ee"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Search Dogs"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="06ad8c80-5e42-4328-853c-e8c00e43c1d0"
+              LastKnownName="Search Dogs"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="82202c03-b81c-4a6d-b01d-8e14fe4c7023"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c20af21-768b-4e12-958c-5704a9e13c50"
+                  name="Search Dogs"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c805ab87-d3af-4c71-9f09-09acf46dd637"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Manage Order"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b34f44c2-72ef-4318-9754-7a4a5368602d"
+              LastKnownName="Manage Order"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c776a180-1d9f-4ad4-a689-2d076cbf3a23"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b0afd488-9442-40b2-bf09-728ed0312bc4"
+                  name="Manage Order"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cada91ba-c8a4-49fa-acf4-e9a1e776476a"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Login"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="df3d282b-8527-4e1f-85ad-ff7dd3fe75db"
+              LastKnownName="Login"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="90048474-be0a-4a17-97d0-ca12a4103410"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9b42699e-9dc8-4b63-84c7-c8590a9a288e"
+                  name="Login"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="06ad8c80-5e42-4328-853c-e8c00e43c1d0"
+        name="Search Dogs"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="80d204b2-53be-40a0-98a1-c1b1a17abbe2">
+            <useCaseMoniker
+              Id="78ab90d9-caf0-47a4-9faa-43db4e5e4f17"
+              LastKnownName="Add to Cart"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+            LastKnownName="Dog Rental System"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8307d00a-50b0-44e0-981c-c955d6deab3f"
+        name="Checkout"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="715a9e74-77b6-41d9-8c3a-6300bf39dcd4"
+            isDerived="false"
+            sourceEndRoleName="Checkout"
+            targetEndRoleName="Dog Owner"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="b209015a-819e-41ed-a1b8-5197c1a8d4f4"
+              LastKnownName="Dog Owner"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1933f6ef-4ef5-4103-8d79-afb0ab39b92b"
+                  name="Checkout"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="87ad1860-8874-4bf9-ad23-32778cf7d109"
+                  name="Dog Owner"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+            LastKnownName="Dog Rental System"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b34f44c2-72ef-4318-9754-7a4a5368602d"
+        name="Manage Order"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="1ca40e5c-2d03-4342-b957-540367f5f852">
+            <useCaseMoniker
+              Id="8307d00a-50b0-44e0-981c-c955d6deab3f"
+              LastKnownName="Checkout"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+            LastKnownName="Dog Rental System"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+        name="Dog Rental System"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="78ab90d9-caf0-47a4-9faa-43db4e5e4f17"
+        name="Add to Cart"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="68308d10-e67f-4c2f-9dac-a3ef68386693">
+            <useCaseMoniker
+              Id="b34f44c2-72ef-4318-9754-7a4a5368602d"
+              LastKnownName="Manage Order"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+            LastKnownName="Dog Rental System"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="df3d282b-8527-4e1f-85ad-ff7dd3fe75db"
+        name="Login"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="5046728f-58d9-4f7c-8b61-88171fc941dd">
+            <useCaseMoniker
+              Id="4e09df58-378d-4aa5-bb5f-f42c60a05bda"
+              LastKnownName="Register"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+            LastKnownName="Dog Rental System"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b209015a-819e-41ed-a1b8-5197c1a8d4f4"
+        name="Dog Owner"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4e09df58-378d-4aa5-bb5f-f42c60a05bda"
+        name="Register"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+            LastKnownName="Dog Rental System"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="827a543a-94eb-433a-9798-604296bd110b"
+        name="By Credit"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="c5774267-58a0-42fb-a0e4-266131b5eec6">
+            <useCaseMoniker
+              Id="b34f44c2-72ef-4318-9754-7a4a5368602d"
+              LastKnownName="Manage Order"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+            LastKnownName="Dog Rental System"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4447accd-5723-4e6e-8e30-8b8eff9bb7d5"
+        name="By Debit"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="351033e1-4c50-4594-b876-56bc46f45c1a">
+            <useCaseMoniker
+              Id="b34f44c2-72ef-4318-9754-7a4a5368602d"
+              LastKnownName="Manage Order"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+            LastKnownName="Dog Rental System"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7987ddf6-f470-4782-9577-e24b0bf7bdd6"
+        name="By Cash"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="f3a7ca16-85a8-404f-99d1-27eedb65c5c6">
+            <useCaseMoniker
+              Id="b34f44c2-72ef-4318-9754-7a4a5368602d"
+              LastKnownName="Manage Order"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="6f275dae-2542-4879-8ba8-d7f2d4670f5b"
+            LastKnownName="Dog Rental System"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
